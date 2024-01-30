@@ -1,0 +1,135 @@
+* { 
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'gill sans';
+}
+
+
+body { 
+    background-color: white;
+}
+
+header {
+    background-color:white;
+    position: sticky; top: 0;
+}
+
+nav { 
+    float: left;
+    background-color: #f7bbd0;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    float: left;
+    color: lightgoldenrodyellow;
+    padding: 0px 40px;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a:hover{
+    background: #f775a3;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:white;
+}
+
+.item {
+    width: 200px;
+    margin: 10px;
+}
+
+.contact {
+  width: 800px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 2px solid #f7bbd0;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 15px; 
+    resize: vertical 
+  }
+
+  input[type=verstuur] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=verstuur]:hover {
+    background-color: #45a049;
+  }
+
+  .collage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.collage img {
+    border: 4px solid #f4f1a5;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-color: #5376ad;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #f7bbd0;
+}
+ 
+h1 {
+    color: #5376ad;
+    text-align: center;
+}
+
+h2 {
+    color:#5376ad;
+    text-align: center;
+}
+
+h3 {
+    color:#5376ad;
+    text-align: center;
+    font-weight: 0;
+}
+
+
+p { 
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #6b92d1;
+
+}
